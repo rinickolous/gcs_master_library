@@ -91,8 +91,7 @@
 					"based_on_hash": "0hX/J8EFZnN/Qm9EIm+rbeGLNFyyvIxzEPyyw4V1UjI",
 					"name": "Cast-Iron Stomach",
 					"physical": true,
-					"levels": "1",
-					"points_per_level": 1,
+					"base_points": 2,
 					"reference": "DFM10",
 					"categories": [
 						"Advantage"
