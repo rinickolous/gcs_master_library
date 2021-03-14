@@ -3,7 +3,6 @@
 <root release="Foundry" version="GCS-5">
   <character>
     <name type="string">@NAME</name>
-    <portrait>@PORTRAIT</portrait>
     <abilities>
       <skilllist>@SKILLS_LOOP_START
         <id-@ID>

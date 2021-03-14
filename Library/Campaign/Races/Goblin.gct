@@ -1,0 +1,336 @@
+{
+	"type": "template",
+	"version": 1,
+	"id": "4c865e54-5f12-444f-ad0a-c815a2958c28",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "1a1b8027-3ecc-47f6-85a4-f24540cefd1b",
+			"container_type": "race",
+			"name": "Goblin",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "5d70c482-86a0-4a75-82f5-558492255af0",
+					"based_on_id": "6d963ef6-409c-4fbc-97a1-35417461df2d",
+					"based_on_hash": "kujAbFChuBGegzH4IVTzN0wvrt50tvR+o/AFU3FIBXE",
+					"name": "Appearance",
+					"physical": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f8716b39-27c2-4b49-a1b4-88688cf76cb2",
+							"based_on_id": "96f5b8ba-8036-429f-b39f-e283b9fd6d71",
+							"based_on_hash": "uA/a7LhK9FbcNqNDl//STkQaKcYDQYaejSJxEwa8CTQ",
+							"disabled": true,
+							"name": "Androgynous",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "6bf2ee0b-da60-4ee4-a860-dee71f9bf2e7",
+							"based_on_id": "a96b39cf-83b3-40cb-a450-b2d70f3edd85",
+							"based_on_hash": "oyo3jJTwbAlBsDXpKaHjnnPncfs76k2mPsmZ936OASM",
+							"disabled": true,
+							"name": "Impressive",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b00a8b07-0783-4393-b5c9-9e6edeb38aaf",
+							"based_on_id": "b4ccdefa-2144-4165-a330-f3fcd057d482",
+							"based_on_hash": "xnP737BxUpxf4q7cMtLybcggZBtbZ3j6DhkDfGrW0AI",
+							"disabled": true,
+							"name": "Attractive",
+							"cost_type": "points",
+							"cost": 4,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c8bf3c4b-af53-46ad-bc7f-a92388f93a09",
+							"based_on_id": "6333b8c8-bd65-4f85-898a-9abd4c8e1b95",
+							"based_on_hash": "Oe2UiC0ev3uFa41VKdCltxSE1XfHbRqcWvol2tpqVDE",
+							"disabled": true,
+							"name": "Average",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f1c2e389-9482-4db2-a0bd-2ed4a3d60baf",
+							"based_on_id": "b15aae19-f168-4821-9d35-eefbbd90d070",
+							"based_on_hash": "TShpz0s+DUtxkHD31bOQVcSJn5jZzl0X4hyn7yTJGdU",
+							"disabled": true,
+							"name": "Horrific",
+							"cost_type": "points",
+							"cost": -24,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4b5d0450-fb8c-4a3c-afa0-30d496313d5f",
+							"based_on_id": "49e69b1f-a6a5-4dfb-9c0e-5467039c6571",
+							"based_on_hash": "7pUqIS9fmMtnitMemBBkaPMoIzwnYZ/3zeLnQcY/cyE",
+							"disabled": true,
+							"name": "Monstrous",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c07eb2a1-78eb-42a7-b7d9-6ca31f0f1097",
+							"based_on_id": "f995185e-9b68-4ae7-b50b-f7ff5645eeac",
+							"based_on_hash": "bvh1s34Bd/NeIUCzyrcOsJI0wRxfsGsFnWXamLwzwbM",
+							"disabled": true,
+							"name": "Hideous",
+							"cost_type": "points",
+							"cost": -16,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "129ae260-a407-4ad9-8b78-1f3eff9b0699",
+							"based_on_id": "37824a5b-f827-4318-8a86-d046a10a0937",
+							"based_on_hash": "vt6ImDW/B2BlM+X60ftFevj6DtIOGBN9UHxIIODWnOk",
+							"name": "Ugly",
+							"cost_type": "points",
+							"cost": -8,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "36b30f59-1e69-41e5-b8e6-1b2500b4cf4d",
+							"based_on_id": "8c61decb-1ab2-4bd8-a8b6-c5b8c6a0347c",
+							"based_on_hash": "7+x0Hdx1bTczKxCPqdJqSwRWN/UHq+GTX8wkYjp9u8o",
+							"disabled": true,
+							"name": "Unattractive",
+							"cost_type": "points",
+							"cost": -4,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "2f24be13-9deb-43f4-bc8d-c7b4a602b9ec",
+							"based_on_id": "04b29ce4-cd7b-4346-8fde-413bae3c4049",
+							"based_on_hash": "skisAqlueG9TxRBktx7iWeuC7z9m9fQazp3KxV0UNUw",
+							"disabled": true,
+							"name": "Handsome",
+							"cost_type": "points",
+							"cost": 12,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "9ea31cff-bf55-480a-aa89-692f92f546d4",
+							"based_on_id": "136b0d72-449e-416b-9867-a020e77029d7",
+							"based_on_hash": "vBHTDK/j1jTjRQHk4bkUzz6oQjS8zsnCVxKqJX2ExHM",
+							"disabled": true,
+							"name": "Beautiful",
+							"cost_type": "points",
+							"cost": 12,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "64e91cd6-faa6-426f-a1db-b1645195fef5",
+							"based_on_id": "6e6176e6-cfff-47b7-ba5c-339ec723d9d8",
+							"based_on_hash": "hs9OJEJMWQfto9aa6g1lZIEUz/6y9pVC62928gkrZWw",
+							"disabled": true,
+							"name": "Very Handsome",
+							"cost_type": "points",
+							"cost": 16,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0a00f9e5-401f-45ef-81f8-0defd0215538",
+							"based_on_id": "6bbed62f-a5df-4068-b8b9-de209f698975",
+							"based_on_hash": "8gz9WyS/O57Cf+Agk3N8Chv4SDrW1AtKWYbFfS0D9TQ",
+							"disabled": true,
+							"name": "Very Beautiful",
+							"cost_type": "points",
+							"cost": 16,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b1d8342f-f6c6-49d3-86a3-3208bdd364aa",
+							"based_on_id": "032cf4e0-1ffe-4318-a782-aae212daa02f",
+							"based_on_hash": "6pwOgVuYubRNlh2QzZAAU+hOYiMO4D3ISHL1dQDoTlQ",
+							"disabled": true,
+							"name": "Transcendent",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total"
+						}
+					],
+					"reference": "DFA47",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "dc09814c-90c6-407c-96b1-414cccfcaa68",
+					"based_on_id": "43cd90ce-492f-4421-a793-cf2e19a858f5",
+					"based_on_hash": "WOZymWD6C5wOip334febPTEZVP9aWv3zoSeuEibaqf8",
+					"name": "Dark Vision",
+					"physical": true,
+					"exotic": true,
+					"base_points": 25,
+					"reference": "DFM10",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "dc4339a0-8cd3-497e-ab2b-60c184ba8b77",
+					"based_on_id": "0a590515-b054-4933-b406-7ba4bbb21162",
+					"based_on_hash": "EKRLNjquG+4NESaUX9fAPK386uww62D3e7oCbBgJetk",
+					"name": "Decreased Size",
+					"physical": true,
+					"levels": "1",
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": -1,
+							"per_level": true,
+							"attribute": "sm"
+						}
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "f17ab539-896d-412e-8d02-69f2fe6f8222",
+					"based_on_id": "be03ccf3-aeb5-47cd-8c27-5577c45bb60f",
+					"based_on_hash": "vuc03ZWTBS6jWUc5a402Ks0RUg9oCIKw3bbV+Pel8aQ",
+					"name": "Decreased Strength",
+					"physical": true,
+					"levels": "1",
+					"points_per_level": -10,
+					"reference": "DFA8",
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": -1,
+							"per_level": true,
+							"attribute": "st"
+						}
+					],
+					"categories": [
+						"Attribute",
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "dfdf4a77-c70e-4425-a937-bd574b6ecee8",
+					"based_on_id": "eea26acc-3db9-47ac-896f-890cd428876a",
+					"based_on_hash": "L6F6m6TuPnfE5jVmVwUP39hv8r/jHrNqLUldQWeEgUA",
+					"name": "Increased Dexterity",
+					"physical": true,
+					"levels": "1",
+					"points_per_level": 20,
+					"reference": "DFA8",
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "dx"
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Attribute"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "20ae87d1-cdf7-4bb7-8be3-2a8909f35805",
+					"based_on_id": "d574dbc8-24b9-41bc-874c-73804a585588",
+					"based_on_hash": "7ZWFRMOkdxosUbOs/BLcW+vHkdrpK+VvGoQoyU/G3fM",
+					"name": "Rapid Healing",
+					"physical": true,
+					"base_points": 5,
+					"reference": "DFA52",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"which": "ht",
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 10
+								}
+							}
+						]
+					},
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "51311401-a9a7-4869-af21-7cd331062b49",
+					"based_on_id": "67e2490e-e7c4-4841-aca1-9f7503c7e93a",
+					"based_on_hash": "qHcO8ZHnm34acleine7aOsKV5YXXjaEWpwxXnxc/px4",
+					"name": "Silence",
+					"physical": true,
+					"exotic": true,
+					"levels": "1",
+					"points_per_level": 5,
+					"reference": "DFA35",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "stealth"
+							}
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	]
+}

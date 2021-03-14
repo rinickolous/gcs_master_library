@@ -1,0 +1,139 @@
+{
+	"type": "advantage_list",
+	"version": 1,
+	"id": "dc5e83d0-9f91-425f-91f4-7f7b2736c622",
+	"rows": [
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "a1943fac-3257-4a84-815c-f75e3a106886",
+			"name": "Natural Attacks",
+			"physical": true,
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Bite",
+					"reach": "C",
+					"parry": "No",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX"
+						},
+						{
+							"type": "Skill",
+							"name": "Brawling"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Punch",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "DX"
+						},
+						{
+							"type": "Skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "Skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "Skill",
+							"name": "Karate"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"usage": "Kick",
+					"reach": "C,1",
+					"parry": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Brawling",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Karate",
+							"modifier": -2
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "ctrl",
+						"st": "thr"
+					},
+					"usage": "Grapple",
+					"reach": "C",
+					"defaults": [
+						{
+							"type": "DX"
+						},
+						{
+							"type": "Skill",
+							"name": "Judo"
+						},
+						{
+							"type": "Skill",
+							"name": "Sumo Wrestling"
+						},
+						{
+							"type": "Skill",
+							"name": "Wrestling"
+						}
+					]
+				}
+			],
+			"reference": "B271"
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "786c5da7-4e90-4922-b5db-d56b91330e9b",
+			"name": "Faerie Veil",
+			"physical": true,
+			"levels": "1",
+			"points_per_level": 12,
+			"features": [
+				{
+					"type": "skill_point_bonus",
+					"amount": 1,
+					"per_level": true,
+					"name": {
+						"compare": "is",
+						"qualifier": "Stealth"
+					}
+				}
+			],
+			"notes": "Additonal +1 when not moving"
+		}
+	]
+}

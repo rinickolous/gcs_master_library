@@ -18,7 +18,7 @@
 					"categories": [
 						"Clerical"
 					],
-					"open": false,
+					"open": true,
 					"children": [
 						{
 							"type": "spell",
@@ -456,7 +456,7 @@
 							"type": "spell",
 							"version": 1,
 							"id": "88f8d543-8dca-420e-9ec8-e45264b97e93",
-							"name": "Minor healing",
+							"name": "Minor Healing",
 							"reference": "DFS37",
 							"difficulty": "IQ/H",
 							"college": "Clerical",
@@ -1110,7 +1110,7 @@
 					"categories": [
 						"Clerical"
 					],
-					"open": false,
+					"open": true,
 					"children": [
 						{
 							"type": "spell",
@@ -3532,7 +3532,7 @@
 					"categories": [
 						"Clerical"
 					],
-					"open": false,
+					"open": true,
 					"children": [
 						{
 							"type": "spell",
@@ -3817,7 +3817,7 @@
 					"categories": [
 						"Druid"
 					],
-					"open": true,
+					"open": false,
 					"children": [
 						{
 							"type": "spell",
