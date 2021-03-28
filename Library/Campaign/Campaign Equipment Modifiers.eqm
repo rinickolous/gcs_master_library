@@ -1,0 +1,15 @@
+{
+	"type": "eqp_modifier_list",
+	"version": 1,
+	"id": "28b1ff9a-1a42-4dca-8e06-88e31acfc197",
+	"rows": [
+		{
+			"type": "eqp_modifier",
+			"version": 1,
+			"id": "f8c25541-d7f5-4052-a52d-ec2fb055efea",
+			"name": "From The Horse's Mouth",
+			"cost_type": "to_original_cost",
+			"cost": "-33.3%"
+		}
+	]
+}

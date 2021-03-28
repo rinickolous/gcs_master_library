@@ -1543,6 +1543,7 @@
 			"id": "f83f895d-2634-4d3e-bee9-2f9e5a933fe9",
 			"quantity": 1,
 			"description": "Ornate Silver Torc",
+			"value": "500",
 			"weight": "0.65 lb",
 			"categories": [
 				"Clothing"
@@ -1922,6 +1923,14 @@
 					]
 				}
 			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "bfe7cd6e-62c8-48e0-a16d-8cf0ddfeaad8",
+			"quantity": 1,
+			"description": "Reindeer Jerky (1 meal)",
+			"weight": "0.75 lb"
 		}
 	]
 }
