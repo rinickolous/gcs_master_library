@@ -1931,6 +1931,22 @@
 			"quantity": 1,
 			"description": "Reindeer Jerky (1 meal)",
 			"weight": "0.75 lb"
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "f5cbaed4-ad31-4ba0-bd93-aa5f02bd7e3a",
+			"based_on_id": "8b52c638-bfb3-43dd-9ae3-53d6f0b8f5a4",
+			"based_on_hash": "dvqOh/tmY49UyeOFGcq761uoO9j/wHENXOZ4n5mNHrM",
+			"quantity": 1,
+			"description": "Chi Rations",
+			"value": "4",
+			"weight": "0.5 lb",
+			"reference": "DFA111",
+			"notes": "One meal",
+			"categories": [
+				"Camping and Survival Gear"
+			]
 		}
 	]
 }
