@@ -375,7 +375,7 @@
 											"type": "attribute_bonus",
 											"amount": 0,
 											"per_level": true,
-											"attribute": "speed"
+											"attribute": "basic_speed"
 										}
 									],
 									"notes": "Up to 5",
@@ -484,7 +484,7 @@
 											"type": "attribute_bonus",
 											"amount": 1,
 											"per_level": true,
-											"attribute": "perception"
+											"attribute": "per"
 										}
 									],
 									"notes": "Up to 2",
@@ -4118,7 +4118,7 @@
 											"type": "attribute_bonus",
 											"amount": 0,
 											"per_level": true,
-											"attribute": "speed"
+											"attribute": "basic_speed"
 										}
 									],
 									"categories": [
@@ -5872,9 +5872,6 @@
 												"name": {
 													"compare": "is",
 													"qualifier": "leadership"
-												},
-												"specialization": {
-													"compare": "is"
 												}
 											},
 											{
@@ -5883,9 +5880,6 @@
 												"name": {
 													"compare": "is",
 													"qualifier": "airshipman"
-												},
-												"specialization": {
-													"compare": "is"
 												}
 											}
 										]
@@ -5930,9 +5924,6 @@
 												"name": {
 													"compare": "is",
 													"qualifier": "seamanship"
-												},
-												"specialization": {
-													"compare": "is"
 												}
 											},
 											{
@@ -5953,9 +5944,6 @@
 												"name": {
 													"compare": "is",
 													"qualifier": "leadership"
-												},
-												"specialization": {
-													"compare": "is"
 												}
 											}
 										]

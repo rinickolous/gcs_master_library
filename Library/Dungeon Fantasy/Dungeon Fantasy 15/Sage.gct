@@ -95,7 +95,7 @@
 											"type": "attribute_bonus",
 											"amount": -1,
 											"per_level": true,
-											"attribute": "perception"
+											"attribute": "per"
 										}
 									],
 									"categories": [
@@ -842,7 +842,7 @@
 									"type": "attribute_bonus",
 									"amount": 1,
 									"per_level": true,
-									"attribute": "perception"
+									"attribute": "per"
 								}
 							],
 							"categories": [
@@ -2332,7 +2332,7 @@
 									"type": "attribute_bonus",
 									"amount": 0,
 									"per_level": true,
-									"attribute": "speed"
+									"attribute": "basic_speed"
 								}
 							],
 							"categories": [
@@ -4140,9 +4140,6 @@
 												"name": {
 													"compare": "is",
 													"qualifier": "naturalist"
-												},
-												"specialization": {
-													"compare": "is"
 												}
 											}
 										]
@@ -4334,9 +4331,6 @@
 												"name": {
 													"compare": "is",
 													"qualifier": "first aid"
-												},
-												"specialization": {
-													"compare": "is"
 												}
 											},
 											{
@@ -4345,9 +4339,6 @@
 												"name": {
 													"compare": "is",
 													"qualifier": "physician"
-												},
-												"specialization": {
-													"compare": "is"
 												}
 											}
 										]

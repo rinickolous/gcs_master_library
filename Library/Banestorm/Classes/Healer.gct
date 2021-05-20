@@ -111,7 +111,7 @@
 									"type": "attribute_bonus",
 									"amount": 1,
 									"per_level": true,
-									"attribute": "perception"
+									"attribute": "per"
 								}
 							],
 							"categories": [
@@ -2601,9 +2601,6 @@
 										"name": {
 											"compare": "is",
 											"qualifier": "first aid"
-										},
-										"specialization": {
-											"compare": "is"
 										}
 									},
 									{
@@ -2612,9 +2609,6 @@
 										"name": {
 											"compare": "is",
 											"qualifier": "physician"
-										},
-										"specialization": {
-											"compare": "is"
 										}
 									}
 								]

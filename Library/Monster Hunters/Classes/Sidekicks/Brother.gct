@@ -52,7 +52,7 @@
 							"type": "attribute_bonus",
 							"amount": 0,
 							"per_level": true,
-							"attribute": "speed"
+							"attribute": "basic_speed"
 						}
 					],
 					"categories": [
@@ -3642,9 +3642,6 @@
 										"name": {
 											"compare": "is",
 											"qualifier": "naturalist"
-										},
-										"specialization": {
-											"compare": "is"
 										}
 									}
 								]

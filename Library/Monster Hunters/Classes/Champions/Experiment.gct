@@ -4759,7 +4759,7 @@
 									"type": "attribute_bonus",
 									"amount": 0,
 									"per_level": true,
-									"attribute": "speed"
+									"attribute": "basic_speed"
 								}
 							],
 							"categories": [
@@ -4962,9 +4962,6 @@
 												"name": {
 													"compare": "is",
 													"qualifier": "computer programming"
-												},
-												"specialization": {
-													"compare": "is"
 												}
 											}
 										]
@@ -5201,9 +5198,6 @@
 												"name": {
 													"compare": "is",
 													"qualifier": "first aid"
-												},
-												"specialization": {
-													"compare": "is"
 												}
 											},
 											{
@@ -5212,9 +5206,6 @@
 												"name": {
 													"compare": "is",
 													"qualifier": "physician"
-												},
-												"specialization": {
-													"compare": "is"
 												}
 											}
 										]

@@ -536,7 +536,7 @@
 											"type": "attribute_bonus",
 											"amount": 1,
 											"per_level": true,
-											"attribute": "move"
+											"attribute": "basic_move"
 										}
 									],
 									"categories": [
@@ -560,7 +560,7 @@
 											"type": "attribute_bonus",
 											"amount": 0,
 											"per_level": true,
-											"attribute": "speed"
+											"attribute": "basic_speed"
 										}
 									],
 									"categories": [
@@ -668,7 +668,7 @@
 											"type": "attribute_bonus",
 											"amount": 1,
 											"per_level": true,
-											"attribute": "perception"
+											"attribute": "per"
 										}
 									],
 									"categories": [
@@ -2272,7 +2272,7 @@
 									"type": "attribute_bonus",
 									"amount": 1,
 									"per_level": true,
-									"attribute": "move"
+									"attribute": "basic_move"
 								}
 							],
 							"categories": [
@@ -4091,9 +4091,6 @@
 										"name": {
 											"compare": "is",
 											"qualifier": "power blow"
-										},
-										"specialization": {
-											"compare": "is"
 										}
 									},
 									{
@@ -4102,9 +4099,6 @@
 										"name": {
 											"compare": "is",
 											"qualifier": "jumping"
-										},
-										"specialization": {
-											"compare": "is"
 										}
 									}
 								]
@@ -4200,9 +4194,6 @@
 										"level": {
 											"compare": "at_least",
 											"qualifier": 14
-										},
-										"specialization": {
-											"compare": "is"
 										}
 									},
 									{
@@ -4215,9 +4206,6 @@
 										"level": {
 											"compare": "at_least",
 											"qualifier": 14
-										},
-										"specialization": {
-											"compare": "is"
 										}
 									}
 								]
