@@ -1,0 +1,23 @@
+{
+	"type": "hit_locations",
+	"version": 2,
+	"hit_locations": {
+		"id": "brain",
+		"name": "Brain",
+		"roll": "0",
+		"locations": [
+			{
+				"id": "brain",
+				"choice_name": "Brain",
+				"table_name": "Brain",
+				"slots": 0,
+				"hit_penalty": 0,
+				"dr_bonus": 0,
+				"description": "Brain",
+				"calc": {
+					"roll_range": "-"
+				}
+			}
+		]
+	}
+}

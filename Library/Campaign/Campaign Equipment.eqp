@@ -1,14 +1,11 @@
 {
 	"type": "equipment_list",
-	"version": 1,
+	"version": 2,
 	"id": "a2c45bea-8e03-4aff-8747-bba8cd5fcdea",
 	"rows": [
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "468e9435-3425-4927-8095-4502456703e6",
-			"based_on_id": "414a7e4c-4c9c-4344-8817-47d80e5439e8",
-			"based_on_hash": "V+NcojsTM4mbmupXhc0jdbe5/2jhj3+cZff8dA2i70c",
 			"quantity": 1,
 			"description": "Copper Coin",
 			"value": "0.05",
@@ -19,10 +16,7 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "8a0d8dab-f38c-4458-8565-dc7196817b32",
-			"based_on_id": "414a7e4c-4c9c-4344-8817-47d80e5439e8",
-			"based_on_hash": "V+NcojsTM4mbmupXhc0jdbe5/2jhj3+cZff8dA2i70c",
 			"quantity": 1,
 			"description": "Billon Coin",
 			"value": "0.2",
@@ -33,7 +27,6 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "794ec480-e38f-4ffb-bb38-704a8fdef13b",
 			"quantity": 1,
 			"description": "Silver Coin",
@@ -45,10 +38,7 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "4ca452f1-cb77-40e8-9ab9-5afcb1a6c698",
-			"based_on_id": "414a7e4c-4c9c-4344-8817-47d80e5439e8",
-			"based_on_hash": "V+NcojsTM4mbmupXhc0jdbe5/2jhj3+cZff8dA2i70c",
 			"quantity": 1,
 			"description": "Tumbaga Coin",
 			"value": "3",
@@ -59,10 +49,7 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "d05e0df7-4bc6-46ec-a4da-89cc233e1b7c",
-			"based_on_id": "414a7e4c-4c9c-4344-8817-47d80e5439e8",
-			"based_on_hash": "V+NcojsTM4mbmupXhc0jdbe5/2jhj3+cZff8dA2i70c",
 			"quantity": 1,
 			"description": "Electrum Coin",
 			"value": "10",
@@ -73,10 +60,7 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "5b6b7e0a-1ceb-41ae-b472-83bc9b86ef89",
-			"based_on_id": "414a7e4c-4c9c-4344-8817-47d80e5439e8",
-			"based_on_hash": "V+NcojsTM4mbmupXhc0jdbe5/2jhj3+cZff8dA2i70c",
 			"quantity": 1,
 			"description": "Gold Coin",
 			"value": "80",
@@ -87,10 +71,7 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "98102e73-5813-4cd9-a3a7-c86b81a3ea93",
-			"based_on_id": "414a7e4c-4c9c-4344-8817-47d80e5439e8",
-			"based_on_hash": "V+NcojsTM4mbmupXhc0jdbe5/2jhj3+cZff8dA2i70c",
 			"quantity": 1,
 			"description": "Platinum Coin",
 			"value": "160",
@@ -101,7 +82,6 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "1539c9ea-165e-4b2b-b6ed-66ded417e37e",
 			"quantity": 1,
 			"description": "Torc of Sif",
@@ -111,7 +91,72 @@
 				{
 					"type": "dr_bonus",
 					"amount": 1,
-					"location": "full_body_except_eyes"
+					"location": "skull"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "face"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "neck"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "vitals"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "groin"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "arm"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "hand"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "leg"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "foot"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "tail"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "wing"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "fin"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "brain"
 				}
 			],
 			"notes": "Power Item: 12 FP; +2 Magic Resistance & +1 DR vs. Evil",
@@ -121,72 +166,7 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
-			"id": "5f62280b-0d66-4a85-a314-5a3fe3a70728",
-			"based_on_id": "428a2534-d23f-4351-bc48-fa83c9aeede6",
-			"based_on_hash": "1h2vIreIiCmc2OY0kJ+Xf3aQLLFhk/0PfsBim5WAYz8",
-			"quantity": 1,
-			"description": " Norðlond Battle Shield",
-			"value": "600",
-			"weight": "8 lb",
-			"reference": "DFA107",
-			"weapons": [
-				{
-					"type": "melee_weapon",
-					"damage": {
-						"type": "cr",
-						"st": "thr"
-					},
-					"strength": "-",
-					"usage": "Shield Bash",
-					"reach": "1",
-					"parry": "No",
-					"block": "+0",
-					"defaults": [
-						{
-							"type": "DX",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Shield",
-							"specialization": "Buckler"
-						},
-						{
-							"type": "Skill",
-							"name": "Shield",
-							"modifier": -2
-						}
-					]
-				}
-			],
-			"features": [
-				{
-					"type": "attribute_bonus",
-					"amount": 2,
-					"attribute": "dodge"
-				},
-				{
-					"type": "attribute_bonus",
-					"amount": 2,
-					"attribute": "parry"
-				},
-				{
-					"type": "attribute_bonus",
-					"amount": 2,
-					"attribute": "block"
-				}
-			],
-			"categories": [
-				"Shield"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
 			"id": "ccfba42d-54c7-4a27-901e-f7217b8ef061",
-			"based_on_id": "372f3d42-ae46-4afd-a521-01a9198ab7f6",
-			"based_on_hash": "e8ZHbT73+TWlLposZ1xeO/zSSoCYF53iqmHcyBDckCE",
 			"quantity": 1,
 			"description": "Long Seax",
 			"value": "400",
@@ -204,52 +184,58 @@
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
+					"calc": {
+						"level": 0,
+						"parry": "0",
+						"block": "No",
+						"damage": "sw cut"
+					},
 					"defaults": [
 						{
-							"type": "DX",
+							"type": "dx",
 							"modifier": -5
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Shortsword"
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Broadsword",
 							"modifier": -2
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Force Sword",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Jitte/Sai",
 							"modifier": -3
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Knife",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Saber",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Smallsword",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Tonfa",
 							"modifier": -3
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Sword!"
 						}
 					]
@@ -259,59 +245,65 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "8",
 					"usage": "Thrust",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
+					"calc": {
+						"level": 0,
+						"parry": "0",
+						"block": "No",
+						"damage": "thr+1 imp"
+					},
 					"defaults": [
 						{
-							"type": "DX",
+							"type": "dx",
 							"modifier": -5
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Shortsword"
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Broadsword",
 							"modifier": -2
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Force Sword",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Jitte/Sai",
 							"modifier": -3
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Knife",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Saber",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Smallsword",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Tonfa",
 							"modifier": -3
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Sword!"
 						}
 					]
@@ -323,10 +315,7 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "f8b0a614-f09b-447b-92d6-1ced290af1fe",
-			"based_on_id": "d9a60c27-9e9b-44b8-bce8-7c437af938bd",
-			"based_on_hash": "Tmv7xhOwXBI1RVWrKGfPFdeyYnkFWIVMcDLP3hLGTc0",
 			"quantity": 1,
 			"description": "Short Seax (Long Knife)",
 			"value": "120",
@@ -345,26 +334,32 @@
 					"reach": "C,1",
 					"parry": "0",
 					"block": "No",
+					"calc": {
+						"level": 0,
+						"parry": "0",
+						"block": "No",
+						"damage": "sw-1 cut"
+					},
 					"defaults": [
 						{
-							"type": "DX",
+							"type": "dx",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Shortsword"
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Force Sword",
 							"modifier": -3
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Knife"
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Main-Gauche",
 							"modifier": -3
 						}
@@ -381,26 +376,32 @@
 					"reach": "C, 1",
 					"parry": "0",
 					"block": "No",
+					"calc": {
+						"level": 0,
+						"parry": "0",
+						"block": "No",
+						"damage": "thr imp"
+					},
 					"defaults": [
 						{
-							"type": "DX",
+							"type": "dx",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Shortsword"
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Force Sword",
 							"modifier": -3
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Knife"
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Main-Gauche",
 							"modifier": -3
 						}
@@ -418,32 +419,38 @@
 					"reach": "C, 1",
 					"parry": "0F",
 					"block": "No",
+					"calc": {
+						"level": 0,
+						"parry": "0F",
+						"block": "No",
+						"damage": "sw-1 cut"
+					},
 					"defaults": [
 						{
-							"type": "DX",
+							"type": "dx",
 							"modifier": -5
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Main-Gauche"
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Jitte/Sai",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Knife",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Rapier",
 							"modifier": -3
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Smallsword",
 							"modifier": -3
 						}
@@ -460,32 +467,38 @@
 					"reach": "C,1",
 					"parry": "0F",
 					"block": "No",
+					"calc": {
+						"level": 0,
+						"parry": "0F",
+						"block": "No",
+						"damage": "thr imp"
+					},
 					"defaults": [
 						{
-							"type": "DX",
+							"type": "dx",
 							"modifier": -5
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Main-Gauche"
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Jitte/Sai",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Knife",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Rapier",
 							"modifier": -3
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Smallsword",
 							"modifier": -3
 						}
@@ -498,10 +511,7 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "335825fd-fd37-462f-ac51-f79d5f6a761b",
-			"based_on_id": "4b689ae2-2daa-42be-b868-355266f3bb49",
-			"based_on_hash": "ARo7v4QLQ5F8huZT/Yp/lifSvUOteULipbbxbcd+A+A",
 			"quantity": 1,
 			"description": "Elven Rations",
 			"value": "15",
@@ -525,10 +535,7 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "c90b3fbf-1d5a-4921-bd1d-e713ffd192ae",
-			"based_on_id": "570b8eba-c5a3-49e2-8642-65bbf1f179f0",
-			"based_on_hash": "PKyhX7s0FdG71ZRBpiPDrJQ1ASCwjiHKBDhr0ttpohA",
 			"quantity": 1,
 			"description": "Warmth Potion",
 			"value": "80",
@@ -542,17 +549,13 @@
 		},
 		{
 			"type": "equipment_container",
-			"version": 1,
 			"id": "e825146e-3696-4ee0-9694-0b0d146704f2",
 			"description": "Huskarls",
 			"open": false,
 			"children": [
 				{
 					"type": "equipment",
-					"version": 1,
 					"id": "bc6a0917-a55e-4aab-8239-00ecfe0336dc",
-					"based_on_id": "22b23ec0-f063-4ef2-a578-c0541e77971d",
-					"based_on_hash": "mcJee59C2KmgFX7nc69b9AArY6EZYZEjB4UZWRPqZKc",
 					"quantity": 1,
 					"description": "Ancient Heavy Mail Hauberk",
 					"tech_level": "2",
@@ -563,10 +566,7 @@
 					"modifiers": [
 						{
 							"type": "eqp_modifier",
-							"version": 1,
 							"id": "28fc983f-7644-453a-b8fe-a42f9ac4055b",
-							"based_on_id": "da7aab67-2adb-455c-8371-2ac173df1f2c",
-							"based_on_hash": "ab+GheLe2S9lBKAn8ymGoUCJoYELRuzMy8cL7Trddlw",
 							"name": "Ornate +1",
 							"reference": "DFA110",
 							"cost_type": "to_base_cost",
@@ -589,12 +589,17 @@
 						{
 							"type": "dr_bonus",
 							"amount": 5,
+							"location": "vitals"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 5,
 							"location": "groin"
 						},
 						{
 							"type": "dr_bonus",
 							"amount": 5,
-							"location": "arms"
+							"location": "arm"
 						}
 					],
 					"notes": "Don: 15 secs; Holdout: -3; Reaction Pen.-1; Flexible and susceptible to blunt trauma (p. B379); -2 DR vs. crushing.",
@@ -604,10 +609,7 @@
 				},
 				{
 					"type": "equipment",
-					"version": 1,
 					"id": "21270408-b4d3-4208-86d9-a2a1352b664a",
-					"based_on_id": "8b6c2054-5c88-4157-8902-f4bd65cc8849",
-					"based_on_hash": "9D7tl0ORNUsNZFZoCqDvkkn6Ekdp6wpZSAz7vD+OhG0",
 					"quantity": 1,
 					"description": "Ancient Spear",
 					"value": "40",
@@ -619,29 +621,35 @@
 							"damage": {
 								"type": "imp",
 								"st": "thr",
-								"base": "+2"
+								"base": "2"
 							},
 							"strength": "9",
 							"usage": "Thrust",
 							"reach": "1*",
 							"parry": "0",
 							"block": "No",
+							"calc": {
+								"level": 0,
+								"parry": "0",
+								"block": "No",
+								"damage": "thr+2 imp"
+							},
 							"defaults": [
 								{
-									"type": "DX",
+									"type": "dx",
 									"modifier": -5
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Spear"
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Polearm",
 									"modifier": -4
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Staff",
 									"modifier": -2
 								}
@@ -652,29 +660,35 @@
 							"damage": {
 								"type": "imp",
 								"st": "thr",
-								"base": "+3"
+								"base": "3"
 							},
 							"strength": "9†",
 							"usage": "Thrust",
 							"reach": "1,2*",
 							"parry": "0",
 							"block": "No",
+							"calc": {
+								"level": 0,
+								"parry": "0",
+								"block": "No",
+								"damage": "thr+3 imp"
+							},
 							"defaults": [
 								{
-									"type": "DX",
+									"type": "dx",
 									"modifier": -5
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Spear"
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Polearm",
 									"modifier": -4
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Staff",
 									"modifier": -2
 								}
@@ -685,7 +699,7 @@
 							"damage": {
 								"type": "imp",
 								"st": "thr",
-								"base": "+3"
+								"base": "3"
 							},
 							"strength": "9",
 							"usage": "Thrown",
@@ -694,23 +708,28 @@
 							"rate_of_fire": "1",
 							"shots": "T(1)",
 							"bulk": "-6",
+							"calc": {
+								"level": 0,
+								"range": "x1/x1.5",
+								"damage": "thr+3 imp"
+							},
 							"defaults": [
 								{
-									"type": "DX",
+									"type": "dx",
 									"modifier": -4
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Thrown Weapon",
 									"specialization": "Spear"
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Spear Thrower",
 									"modifier": -4
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Thrown Weapon",
 									"specialization": "Harpoon",
 									"modifier": -2
@@ -721,10 +740,7 @@
 					"modifiers": [
 						{
 							"type": "eqp_modifier",
-							"version": 1,
 							"id": "fad9b6a5-423d-4fe7-bd33-61aecfa6c29f",
-							"based_on_id": "3619d40a-447c-4158-8656-8884e626e298",
-							"based_on_hash": "gUDpUXt16ezDE6973i2zfIrDHhCHlQD2qgVo2iURf9I",
 							"name": "Ornate (+1)",
 							"reference": "DFA106",
 							"cost_type": "to_base_cost",
@@ -739,10 +755,7 @@
 						},
 						{
 							"type": "eqp_modifier",
-							"version": 1,
 							"id": "ca2050c6-168f-43c5-85fc-5a5bfe2999b2",
-							"based_on_id": "1d3b4c1f-6ad5-472f-8a13-6c32bb7f9e7b",
-							"based_on_hash": "DKGm1JgT+bDNC3kWquu9PlzmCDgi03yRVc8X0m8mbrs",
 							"name": "Fine (Projectiles, crushing- or impaling-only melee or thrown weapons)",
 							"reference": "DFA106",
 							"cost_type": "to_base_cost",
@@ -764,10 +777,7 @@
 				},
 				{
 					"type": "equipment",
-					"version": 1,
 					"id": "9f972440-cff6-427e-8787-1d57e8911048",
-					"based_on_id": "6af8e1be-580c-495a-a07f-e77a8274e47b",
-					"based_on_hash": "XsYhW4ZhY963Az5GySxNV8pKbJAoxCAA5cE8L/a7T38",
 					"quantity": 1,
 					"description": "Ancient Seax (Long Knife)",
 					"value": "120",
@@ -786,26 +796,32 @@
 							"reach": "C,1",
 							"parry": "0",
 							"block": "No",
+							"calc": {
+								"level": 0,
+								"parry": "0",
+								"block": "No",
+								"damage": "sw-1 cut"
+							},
 							"defaults": [
 								{
-									"type": "DX",
+									"type": "dx",
 									"modifier": -4
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Shortsword"
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Force Sword",
 									"modifier": -3
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Knife"
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Main-Gauche",
 									"modifier": -3
 								}
@@ -822,26 +838,32 @@
 							"reach": "C, 1",
 							"parry": "0",
 							"block": "No",
+							"calc": {
+								"level": 0,
+								"parry": "0",
+								"block": "No",
+								"damage": "thr imp"
+							},
 							"defaults": [
 								{
-									"type": "DX",
+									"type": "dx",
 									"modifier": -4
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Shortsword"
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Force Sword",
 									"modifier": -3
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Knife"
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Main-Gauche",
 									"modifier": -3
 								}
@@ -859,32 +881,38 @@
 							"reach": "C, 1",
 							"parry": "0F",
 							"block": "No",
+							"calc": {
+								"level": 0,
+								"parry": "0F",
+								"block": "No",
+								"damage": "sw-1 cut"
+							},
 							"defaults": [
 								{
-									"type": "DX",
+									"type": "dx",
 									"modifier": -5
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Main-Gauche"
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Jitte/Sai",
 									"modifier": -4
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Knife",
 									"modifier": -4
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Rapier",
 									"modifier": -3
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Smallsword",
 									"modifier": -3
 								}
@@ -901,32 +929,38 @@
 							"reach": "C,1",
 							"parry": "0F",
 							"block": "No",
+							"calc": {
+								"level": 0,
+								"parry": "0F",
+								"block": "No",
+								"damage": "thr imp"
+							},
 							"defaults": [
 								{
-									"type": "DX",
+									"type": "dx",
 									"modifier": -5
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Main-Gauche"
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Jitte/Sai",
 									"modifier": -4
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Knife",
 									"modifier": -4
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Rapier",
 									"modifier": -3
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Smallsword",
 									"modifier": -3
 								}
@@ -936,10 +970,7 @@
 					"modifiers": [
 						{
 							"type": "eqp_modifier",
-							"version": 1,
 							"id": "d33cc564-aa03-44e7-9b36-49fd92d048b3",
-							"based_on_id": "1c34312b-346f-4237-857b-2cd1c67c4296",
-							"based_on_hash": "54en74oaw+uQqV017xQqVhG9txJ9bJktgtn59YXU0y4",
 							"name": "Ornate (+1)",
 							"reference": "DFA106",
 							"cost_type": "to_base_cost",
@@ -954,10 +985,7 @@
 						},
 						{
 							"type": "eqp_modifier",
-							"version": 1,
 							"id": "7c6fe7b7-7829-4bff-8eca-fe14b6b2c928",
-							"based_on_id": "a2427771-0519-4786-89ae-a2ae72689c2f",
-							"based_on_hash": "XCUc5wYpfMeD4qOBxt49sqMZimGfrJEWrNvJwSBzW34",
 							"name": "Fine (Other cutting melee or thrown weapons).",
 							"reference": "DFA106",
 							"cost_type": "to_base_cost",
@@ -977,10 +1005,7 @@
 				},
 				{
 					"type": "equipment",
-					"version": 1,
 					"id": "2f706ddc-5c53-4c77-9f35-7c1aa8151d56",
-					"based_on_id": "42866de3-ecf2-4109-a9fd-b37e8ca89a68",
-					"based_on_hash": "iVuZHrxb2xQzLRCrsjcZ6yUS0YuZgVUnU9a4uHIyeYk",
 					"quantity": 1,
 					"description": "Ancient Axe",
 					"value": "50",
@@ -992,29 +1017,35 @@
 							"damage": {
 								"type": "cut",
 								"st": "sw",
-								"base": "+2"
+								"base": "2"
 							},
 							"strength": "11",
 							"usage": "Swung",
 							"reach": "1",
 							"parry": "0U",
 							"block": "No",
+							"calc": {
+								"level": 0,
+								"parry": "0U",
+								"block": "No",
+								"damage": "sw+2 cut"
+							},
 							"defaults": [
 								{
-									"type": "DX",
+									"type": "dx",
 									"modifier": -5
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Axe/Mace"
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Flail",
 									"modifier": -4
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Two-Handed Axe/Mace",
 									"modifier": -3
 								}
@@ -1024,10 +1055,7 @@
 					"modifiers": [
 						{
 							"type": "eqp_modifier",
-							"version": 1,
 							"id": "5f37f3b9-b8ff-4d9e-b58f-f220df29c47b",
-							"based_on_id": "fe9d60ca-d271-485f-b8c8-070495915ac1",
-							"based_on_hash": "NOQ6e7IeVofnfB7Fd7+Ta+zQgH1fvWhLJqpVMOA+eXs",
 							"name": "Ornate (+1)",
 							"reference": "DFA106",
 							"cost_type": "to_base_cost",
@@ -1042,10 +1070,7 @@
 						},
 						{
 							"type": "eqp_modifier",
-							"version": 1,
 							"id": "01e5037d-470e-4233-9fa4-9b9f51d3bf1a",
-							"based_on_id": "548d1ddf-d478-4a30-bb27-bf2cc38a3029",
-							"based_on_hash": "mQlaC5/gGCQsC9v3OFcjTDkgCx/LEmQ11HRUHQbLd5U",
 							"name": "Fine (Other cutting melee or thrown weapons).",
 							"reference": "DFA106",
 							"cost_type": "to_base_cost",
@@ -1067,7 +1092,6 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "0741bd81-69a1-4698-afdb-c97b4953197c",
 			"quantity": 1,
 			"description": "Tiwstakn",
@@ -1075,7 +1099,6 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "6b52100c-5be1-43cb-8db2-d19f3f928783",
 			"quantity": 1,
 			"description": "Meistaratakn",
@@ -1083,10 +1106,7 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "0abc90ea-2f1b-4a50-a376-0ff688ad7c63",
-			"based_on_id": "273bf71c-f45d-46c2-a864-47d605168002",
-			"based_on_hash": "biz239a8yKF4zWncDE9pjOfqOFcwG6rLUSVzkVrqx20",
 			"quantity": 1,
 			"description": "Gyrid's Sword (Bastard Sword)",
 			"value": "750",
@@ -1098,44 +1118,50 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "11",
 					"usage": "Swing - One Handed",
 					"reach": "1,2",
 					"parry": "0U",
 					"block": "No",
+					"calc": {
+						"level": 0,
+						"parry": "0U",
+						"block": "No",
+						"damage": "sw+1 cut"
+					},
 					"defaults": [
 						{
-							"type": "DX",
+							"type": "dx",
 							"modifier": -5
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Broadsword"
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Force Sword",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Rapier",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Saber",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Shortsword",
 							"modifier": -2
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Two-Handed Sword",
 							"modifier": -4
 						}
@@ -1146,44 +1172,50 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "11",
 					"usage": "Thrust - One Handed",
 					"reach": "2",
 					"parry": "0U",
 					"block": "No",
+					"calc": {
+						"level": 0,
+						"parry": "0U",
+						"block": "No",
+						"damage": "thr+2 imp"
+					},
 					"defaults": [
 						{
-							"type": "DX",
+							"type": "dx",
 							"modifier": -5
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Broadsword"
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Force Sword",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Rapier",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Saber",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Shortsword",
 							"modifier": -2
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Two-Handed Sword",
 							"modifier": -4
 						}
@@ -1194,29 +1226,35 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "10†",
 					"usage": "Swing - Two Handed",
 					"reach": "1,2",
 					"parry": "0",
 					"block": "No",
+					"calc": {
+						"level": 0,
+						"parry": "0",
+						"block": "No",
+						"damage": "sw+2 cut"
+					},
 					"defaults": [
 						{
-							"type": "DX",
+							"type": "dx",
 							"modifier": -5
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Two-Handed Sword"
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Broadsword",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Force Sword",
 							"modifier": -4
 						}
@@ -1227,29 +1265,35 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "10†",
 					"usage": "Thrust - Two Handed",
 					"reach": "2",
 					"parry": "0",
 					"block": "No",
+					"calc": {
+						"level": 0,
+						"parry": "0",
+						"block": "No",
+						"damage": "thr+3 imp"
+					},
 					"defaults": [
 						{
-							"type": "DX",
+							"type": "dx",
 							"modifier": -5
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Two-Handed Sword"
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Broadsword",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Force Sword",
 							"modifier": -4
 						}
@@ -1259,10 +1303,7 @@
 			"modifiers": [
 				{
 					"type": "eqp_modifier",
-					"version": 1,
 					"id": "672b8e1b-833b-42f1-857d-890fe95e05f7",
-					"based_on_id": "96749097-f5bb-409c-a71f-a4b932984665",
-					"based_on_hash": "rD3L0kTFHTBGGoW8JLsCcMvcpWxvLEWTFtjsuOwG1aQ",
 					"name": "Ornate (+2)",
 					"reference": "DFA106",
 					"cost_type": "to_base_cost",
@@ -1277,10 +1318,7 @@
 				},
 				{
 					"type": "eqp_modifier",
-					"version": 1,
 					"id": "e5ceffd0-a04d-46a7-b465-4a779f13c311",
-					"based_on_id": "e25a53ab-4e5a-4f3f-9a32-c14946d295c3",
-					"based_on_hash": "yASYVFUg47oyAHoaCAmHfUHECkKNU7mk0eQZWo8So98",
 					"name": "Fine (Fencing weapons, swords, blowpipes, bows, and crossbows).",
 					"reference": "DFA106",
 					"cost_type": "to_base_cost",
@@ -1296,10 +1334,7 @@
 				},
 				{
 					"type": "eqp_modifier",
-					"version": 1,
 					"id": "9490299d-9d80-4182-9914-6ebf661bda78",
-					"based_on_id": "11e49457-920d-4934-be33-ddba030940de",
-					"based_on_hash": "0mUmqd2vE+ixdHjdATAM3V6Ko7lhiDNQVZ8C3FuHxrM",
 					"name": "Balanced",
 					"reference": "DFA106",
 					"cost_type": "to_base_cost",
@@ -1314,10 +1349,7 @@
 				},
 				{
 					"type": "eqp_modifier",
-					"version": 1,
 					"id": "22611bb4-772e-4e4e-9f6c-ee97f42a5c57",
-					"based_on_id": "9c980909-b695-43b0-9372-fed0085b1208",
-					"based_on_hash": "jD/HVKh7Xb2xOdTpxR//+E8cG9+XOH6ahukF+2nbPoQ",
 					"name": "Enchanted (?)",
 					"cost_type": "to_final_cost",
 					"cost": "+25000"
@@ -1329,10 +1361,7 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "0930da4e-47ad-49a6-a6b1-39926fb43899",
-			"based_on_id": "713c04b7-4520-470a-b097-a474b2e5aafa",
-			"based_on_hash": "X46TrfSCOojMYHc/Efk5Pbc/OWK3LD0DdG6GCs0d6lg",
 			"quantity": 1,
 			"description": "Gold Ring",
 			"value": "3400",
@@ -1340,10 +1369,7 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "d6c10cf6-61c8-42ba-9a28-fcdaa7074cb0",
-			"based_on_id": "a38fb954-50bc-4cd8-ad45-5ef7c8f88308",
-			"based_on_hash": "HFmhGxd3fl9y1K52M0S7cgns67TI6i7deTnSMAgzrUU",
 			"quantity": 1,
 			"description": "Lögfræðingur (Broadsword)",
 			"value": "600",
@@ -1355,44 +1381,50 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10",
 					"usage": "Swing",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
+					"calc": {
+						"level": 0,
+						"parry": "0",
+						"block": "No",
+						"damage": "sw+1 cut"
+					},
 					"defaults": [
 						{
-							"type": "DX",
+							"type": "dx",
 							"modifier": -5
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Broadsword"
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Force Sword",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Rapier",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Saber",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Shortsword",
 							"modifier": -2
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Two-Handed Sword",
 							"modifier": -4
 						}
@@ -1403,44 +1435,50 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "10",
 					"usage": "Thrust",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
+					"calc": {
+						"level": 0,
+						"parry": "0",
+						"block": "No",
+						"damage": "thr+2 imp"
+					},
 					"defaults": [
 						{
-							"type": "DX",
+							"type": "dx",
 							"modifier": -5
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Broadsword"
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Force Sword",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Rapier",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Saber",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Shortsword",
 							"modifier": -2
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Two-Handed Sword",
 							"modifier": -4
 						}
@@ -1450,10 +1488,7 @@
 			"modifiers": [
 				{
 					"type": "eqp_modifier",
-					"version": 1,
 					"id": "a1c2a127-e31b-401e-99ad-31fa0d10083d",
-					"based_on_id": "3f27bf4f-3c6e-43a3-8c23-fcbd903d938d",
-					"based_on_hash": "GwHGAe3fTZPF5uPF9UUnw4ZRaZP3idrx67ZbispBs9s",
 					"name": "Ornate (+1)",
 					"reference": "DFA106",
 					"cost_type": "to_base_cost",
@@ -1468,10 +1503,7 @@
 				},
 				{
 					"type": "eqp_modifier",
-					"version": 1,
 					"id": "d4b062b7-374e-46b4-aca5-1265534e932e",
-					"based_on_id": "4ccee00f-4117-42e1-8182-b268d52de5f5",
-					"based_on_hash": "AetbR262tKHVMeV4cvdIAUV5U3WP63TA0QiW1YUOG8c",
 					"name": "Fine",
 					"reference": "DFA106",
 					"cost_type": "to_base_cost",
@@ -1487,10 +1519,7 @@
 				},
 				{
 					"type": "eqp_modifier",
-					"version": 1,
 					"id": "ac5bccd0-afd5-476a-8153-405b4f80ad64",
-					"based_on_id": "c2e8c6a5-2b06-4e08-8eb9-577d8d1c9c3e",
-					"based_on_hash": "huS5hiwtXHJvTAaOmi+18z2F4VfeyPnPa29Qf26NMpU",
 					"name": "Balanced",
 					"reference": "DFA106",
 					"cost_type": "to_base_cost",
@@ -1505,10 +1534,7 @@
 				},
 				{
 					"type": "eqp_modifier",
-					"version": 1,
 					"id": "5bf111f7-7c5e-401c-acf1-2a7b89e12a50",
-					"based_on_id": "8a07fe4a-7187-429b-b2a3-eb5dc5addcd9",
-					"based_on_hash": "kX+CQvyftBOpBIJ7Z1Sh/DU1CRNFHKwOhfBmvTD1Zv8",
 					"name": "Accuracy +1",
 					"reference": "DFMI5",
 					"cost_type": "to_final_cost",
@@ -1523,10 +1549,7 @@
 				},
 				{
 					"type": "eqp_modifier",
-					"version": 1,
 					"id": "e3e8c62b-a3f5-47a4-b84c-66b991770a6a",
-					"based_on_id": "d89c4c0d-fe8e-4ee1-b746-e9dea978e530",
-					"based_on_hash": "J9HhoDEFxSm1DAowwftDUlAN2VxUC7ruKRnwNt0trJ0",
 					"name": "Affect Spirits",
 					"cost_type": "to_final_cost",
 					"cost": "+15000",
@@ -1539,7 +1562,6 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "f83f895d-2634-4d3e-bee9-2f9e5a933fe9",
 			"quantity": 1,
 			"description": "Ornate Silver Torc",
@@ -1551,10 +1573,7 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "eeaf1e60-87fc-49c9-83a4-f8cbbb3a1c14",
-			"based_on_id": "c8cec3c7-b2fc-487f-8f4c-ed1fcbc9f73d",
-			"based_on_hash": "X+qmfE/1obsnwsHcbfNNXHB3rl9/2RLPPLjR2L/KA8E",
 			"quantity": 1,
 			"description": "Viðskipti (Short Seax)",
 			"value": "80",
@@ -1573,26 +1592,32 @@
 					"reach": "C,1",
 					"parry": "0",
 					"block": "No",
+					"calc": {
+						"level": 0,
+						"parry": "0",
+						"block": "No",
+						"damage": "sw-2 cut"
+					},
 					"defaults": [
 						{
-							"type": "DX",
+							"type": "dx",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Shortsword"
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Force Sword",
 							"modifier": -3
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Knife"
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Main-Gauche",
 							"modifier": -3
 						}
@@ -1610,26 +1635,32 @@
 					"reach": "C, 1",
 					"parry": "0",
 					"block": "No",
+					"calc": {
+						"level": 0,
+						"parry": "0",
+						"block": "No",
+						"damage": "thr-1 imp"
+					},
 					"defaults": [
 						{
-							"type": "DX",
+							"type": "dx",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Shortsword"
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Force Sword",
 							"modifier": -3
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Knife"
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Main-Gauche",
 							"modifier": -3
 						}
@@ -1647,32 +1678,38 @@
 					"reach": "C, 1",
 					"parry": "0F",
 					"block": "No",
+					"calc": {
+						"level": 0,
+						"parry": "0F",
+						"block": "No",
+						"damage": "sw-2 cut"
+					},
 					"defaults": [
 						{
-							"type": "DX",
+							"type": "dx",
 							"modifier": -5
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Main-Gauche"
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Jitte/Sai",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Knife",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Rapier",
 							"modifier": -3
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Smallsword",
 							"modifier": -3
 						}
@@ -1690,32 +1727,38 @@
 					"reach": "C,1",
 					"parry": "0F",
 					"block": "No",
+					"calc": {
+						"level": 0,
+						"parry": "0F",
+						"block": "No",
+						"damage": "thr-1 imp"
+					},
 					"defaults": [
 						{
-							"type": "DX",
+							"type": "dx",
 							"modifier": -5
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Main-Gauche"
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Jitte/Sai",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Knife",
 							"modifier": -4
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Rapier",
 							"modifier": -3
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Smallsword",
 							"modifier": -3
 						}
@@ -1728,10 +1771,7 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "814ca810-a555-4a07-91d1-68c2d72fc9a4",
-			"based_on_id": "03e51a4d-d648-4732-aa8b-70185983191f",
-			"based_on_hash": "RH78x6xv/gYTE+NebEBSJ20zFEAWwSw5btXyLFL5+4o",
 			"quantity": 1,
 			"description": "Boomstick (Double-Barreled)",
 			"tech_level": "3",
@@ -1751,9 +1791,14 @@
 					"shots": "2(30i)",
 					"bulk": "-7",
 					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "55/550",
+						"damage": "2d+1 pi++"
+					},
 					"defaults": [
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Guns",
 							"specialization": "Boomstick"
 						}
@@ -1766,10 +1811,7 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "25b11a36-2810-4621-8001-42e35a50c9a7",
-			"based_on_id": "6fd68359-2f9f-486c-9354-dc3ab2d36cd8",
-			"based_on_hash": "sSS0dTi5hhVnwWXvTkNf4YVtwv2Xt17r833R9gWkYGI",
 			"quantity": 1,
 			"description": "Boomstick (Triple-Barreled)",
 			"tech_level": "3",
@@ -1789,9 +1831,14 @@
 					"shots": "3(30i)",
 					"bulk": "-7",
 					"recoil": "2",
+					"calc": {
+						"level": 0,
+						"range": "55/550",
+						"damage": "2d+1 pi++"
+					},
 					"defaults": [
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Guns",
 							"specialization": "Boomstick"
 						}
@@ -1804,14 +1851,12 @@
 		},
 		{
 			"type": "equipment_container",
-			"version": 1,
 			"id": "7fefded6-62e8-4262-b3fb-0f0aba8d28b9",
 			"description": "Bombs",
 			"open": true,
 			"children": [
 				{
 					"type": "equipment",
-					"version": 1,
 					"id": "d9cf7784-da52-409a-add0-07594ce169aa",
 					"quantity": 1,
 					"description": "Small Bomb",
@@ -1829,9 +1874,14 @@
 							"usage": "Throw",
 							"range": "x2.5",
 							"rate_of_fire": "1",
+							"calc": {
+								"level": 0,
+								"range": "x2.5",
+								"damage": "1d cr ex [1d-4 cut]"
+							},
 							"defaults": [
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Throwing"
 								}
 							]
@@ -1840,10 +1890,7 @@
 				},
 				{
 					"type": "equipment",
-					"version": 1,
 					"id": "108c83f0-e5d5-4b6d-a8f1-dade30a58d0b",
-					"based_on_id": "dbfdf0b9-0b15-437e-b57b-6417119c232f",
-					"based_on_hash": "prlIfsLNeZgKqBf/3ZkK4WJhJci0LmFbNGmdNxdfem8",
 					"quantity": 1,
 					"description": "Medium Bomb",
 					"value": "49",
@@ -1860,9 +1907,14 @@
 							"usage": "Throw",
 							"range": "x1.2",
 							"rate_of_fire": "1",
+							"calc": {
+								"level": 0,
+								"range": "x1.2",
+								"damage": "2d cr ex [1d-2 cut]"
+							},
 							"defaults": [
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Throwing"
 								}
 							]
@@ -1873,10 +1925,7 @@
 		},
 		{
 			"type": "equipment_container",
-			"version": 1,
 			"id": "cc6b1436-443b-46f1-a554-c7e906b3efe5",
-			"based_on_id": "5db0d97a-fd6e-4149-a825-fab429578a56",
-			"based_on_hash": "mSG0jNxKhLBod96l2fAPH9frF67rSk76HAbpUeBnVKQ",
 			"description": "Bandoleer",
 			"value": "50",
 			"weight": "5 lb",
@@ -1898,10 +1947,7 @@
 			"children": [
 				{
 					"type": "equipment",
-					"version": 1,
 					"id": "45ba58b1-8476-42b1-885a-5f05db3b9077",
-					"based_on_id": "a12aa1e4-cef3-472b-887c-94eabb672774",
-					"based_on_hash": "hl6PYnUdU+UBFqlpng+mrajlJefKkIM3HeeZv8qsdIQ",
 					"quantity": 1,
 					"description": "Boomstick Shot",
 					"value": "10",
@@ -1909,10 +1955,7 @@
 				},
 				{
 					"type": "equipment",
-					"version": 1,
 					"id": "f317ba04-9d65-4779-9aec-aed47e62b309",
-					"based_on_id": "4467aaeb-2c15-4b22-aa89-8d233f2a98f5",
-					"based_on_hash": "AbvsaP2KTRlBvKmf9nO4F0yT6s9LNqwgLY3IOpm8sB0",
 					"quantity": 1,
 					"description": "Warm Clothing",
 					"value": "50",
@@ -1926,7 +1969,6 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "bfe7cd6e-62c8-48e0-a16d-8cf0ddfeaad8",
 			"quantity": 1,
 			"description": "Reindeer Jerky (1 meal)",
@@ -1934,10 +1976,7 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "f5cbaed4-ad31-4ba0-bd93-aa5f02bd7e3a",
-			"based_on_id": "8b52c638-bfb3-43dd-9ae3-53d6f0b8f5a4",
-			"based_on_hash": "dvqOh/tmY49UyeOFGcq761uoO9j/wHENXOZ4n5mNHrM",
 			"quantity": 1,
 			"description": "Chi Rations",
 			"value": "4",
@@ -1946,6 +1985,88 @@
 			"notes": "One meal",
 			"categories": [
 				"Camping and Survival Gear"
+			]
+		},
+		{
+			"type": "equipment",
+			"id": "54a3bd81-a012-4460-9b47-c427c8a9de51",
+			"quantity": 1,
+			"description": "Norðlond Battle Shield (Medium Shield)",
+			"value": "60",
+			"weight": "15 lb",
+			"reference": "DFA107",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"strength": "0",
+					"usage": "Shield Bash",
+					"reach": "1",
+					"parry": "No",
+					"block": "+0",
+					"calc": {
+						"level": 0,
+						"parry": "No",
+						"block": "+0",
+						"damage": "thr cr"
+					},
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shield",
+							"specialization": "Buckler"
+						},
+						{
+							"type": "skill",
+							"name": "Shield",
+							"specialization": "Force Shield"
+						},
+						{
+							"type": "skill",
+							"name": "Shield",
+							"specialization": "Shield"
+						}
+					]
+				}
+			],
+			"modifiers": [
+				{
+					"type": "eqp_modifier",
+					"id": "a0d271ed-b7bf-4337-bbe6-0c6fe639a6b7",
+					"name": "Fine",
+					"reference": "DFA107",
+					"cost_type": "to_base_cost",
+					"cost": "+9 CF",
+					"weight_type": "to_base_weight",
+					"weight": "x3/4"
+				}
+			],
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"amount": 2,
+					"attribute": "dodge"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 2,
+					"attribute": "parry"
+				},
+				{
+					"type": "attribute_bonus",
+					"amount": 2,
+					"attribute": "block"
+				}
+			],
+			"categories": [
+				"Shield"
 			]
 		}
 	]

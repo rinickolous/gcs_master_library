@@ -1,11 +1,10 @@
 {
 	"type": "advantage_list",
-	"version": 1,
+	"version": 2,
 	"id": "dc5e83d0-9f91-425f-91f4-7f7b2736c622",
 	"rows": [
 		{
 			"type": "advantage",
-			"version": 1,
 			"id": "a1943fac-3257-4a84-815c-f75e3a106886",
 			"name": "Natural Attacks",
 			"physical": true,
@@ -21,12 +20,18 @@
 					"reach": "C",
 					"parry": "No",
 					"block": "No",
+					"calc": {
+						"level": 0,
+						"parry": "No",
+						"block": "No",
+						"damage": "thr-1 cr"
+					},
 					"defaults": [
 						{
-							"type": "DX"
+							"type": "dx"
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Brawling"
 						}
 					]
@@ -41,20 +46,26 @@
 					"usage": "Punch",
 					"reach": "C",
 					"parry": "0",
+					"calc": {
+						"level": 0,
+						"parry": "0",
+						"block": "",
+						"damage": "thr-1 cr"
+					},
 					"defaults": [
 						{
-							"type": "DX"
+							"type": "dx"
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Boxing"
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Brawling"
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Karate"
 						}
 					]
@@ -68,18 +79,24 @@
 					"usage": "Kick",
 					"reach": "C,1",
 					"parry": "No",
+					"calc": {
+						"level": 0,
+						"parry": "No",
+						"block": "",
+						"damage": "thr cr"
+					},
 					"defaults": [
 						{
-							"type": "DX",
+							"type": "dx",
 							"modifier": -2
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Brawling",
 							"modifier": -2
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Karate",
 							"modifier": -2
 						}
@@ -93,35 +110,46 @@
 					},
 					"usage": "Grapple",
 					"reach": "C",
+					"calc": {
+						"level": 0,
+						"parry": "",
+						"block": "",
+						"damage": "thr ctrl"
+					},
 					"defaults": [
 						{
-							"type": "DX"
+							"type": "dx"
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Judo"
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Sumo Wrestling"
 						},
 						{
-							"type": "Skill",
+							"type": "skill",
 							"name": "Wrestling"
 						}
 					]
 				}
 			],
-			"reference": "B271"
+			"reference": "DFA99",
+			"calc": {
+				"points": 0
+			}
 		},
 		{
 			"type": "advantage",
-			"version": 1,
 			"id": "786c5da7-4e90-4922-b5db-d56b91330e9b",
 			"name": "Faerie Veil",
 			"physical": true,
 			"levels": "1",
 			"points_per_level": 12,
+			"calc": {
+				"points": 12
+			},
 			"features": [
 				{
 					"type": "skill_point_bonus",
