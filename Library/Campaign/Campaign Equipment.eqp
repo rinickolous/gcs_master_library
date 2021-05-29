@@ -1562,6 +1562,15 @@
 		},
 		{
 			"type": "equipment",
+			"id": "d82d858b-7e1b-4f7b-b4d7-a34a62f90e8d",
+			"quantity": 1,
+			"description": "Warm Clothing",
+			"value": "50",
+			"weight": "2.5 lb",
+			"notes": "[+1 to HT rolls against cold]"
+		},
+		{
+			"type": "equipment",
 			"id": "f83f895d-2634-4d3e-bee9-2f9e5a933fe9",
 			"quantity": 1,
 			"description": "Ornate Silver Torc",
@@ -1853,7 +1862,7 @@
 			"type": "equipment_container",
 			"id": "7fefded6-62e8-4262-b3fb-0f0aba8d28b9",
 			"description": "Bombs",
-			"open": true,
+			"open": false,
 			"children": [
 				{
 					"type": "equipment",
@@ -1943,7 +1952,7 @@
 					}
 				]
 			},
-			"open": true,
+			"open": false,
 			"children": [
 				{
 					"type": "equipment",
