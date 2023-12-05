@@ -1,36 +1,34 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-@ENHANCED_KEY_PARSING
-@ENCODING_OFF
 <root release="4|CoreRPG:3" version="3.2">
   <character>
-    <name type="string">@NAME</name>
+	  <name type="string">{{.Name}}</name>
     <abilities>
-      <skilllist>@SKILLS_LOOP_START
+		<skilllist>{{range .Skills}}
         <id-@ID>
-          <name type="string">@DESCRIPTION_PRIMARY</name>
-          <type type="string">@DIFFICULTY</type>
-          <level type="number">@SL</level>
-          <relativelevel type="string">@RSL</relativelevel>
-          <points type="number">@POINTS</points>
-          <text type="formattedtext"><p>@DESCRIPTION_NOTES @DESCRIPTION_MODIFIER_NOTES_PAREN</p><p>Page Ref: @REF</p></text>
-        </id-@ID>@SKILLS_LOOP_END
+			<name type="string">{{.Description}}</name>
+			<type type="string">{{.Difficulty}}</type>
+			<level type="number">{{.Level}}</level>
+			<relativelevel type="string">{{.RSL}}</relativelevel>
+			<points type="number">{{.Points}}</points>
+			<text type="formattedtext"><p>{{.ModifierNotes}} {{.Notes}}</p><p>Page Ref: {{.PageRef}}</p></text>
+			</id-{{.Id}}>{{end}}
       </skilllist>
 
-      <spelllist>@SPELLS_LOOP_START
-        <id-@ID>
-          <class type="string">@CLASS</class>
-          <college type="string">@COLLEGE</college>
-          <costmaintain type="string">@MANA_CAST/@MANA_MAINTAIN</costmaintain>
-          <duration type="string">@DURATION</duration>
-          <level type="number">@SL</level>
-          <name type="string">@DESCRIPTION_PRIMARY</name>
-          <page type="string">@REF</page>
-          <points type="number">@POINTS</points>
+	  <spelllist>{{range .Spells}}
+	  <id-{{.Id}}>
+			<class type="string">{{.Class}}</class>
+			<college type="string">{{.College}}</college>
+			<costmaintain type="string">{{.Mana.Cast}}/{{.Mana.Maintain}}</costmaintain>
+			<duration type="string">{{.Duration}}</duration>
+			<level type="number">{{.Level}}</level>
+			<name type="string">{{.Description}}</name>
+			<page type="string">{{.PageRef}}</page>
+			<points type="number">{{.Points}}</points>
           <resist type="string"></resist>
-          <time type="string">@TIME_CAST</time>
-          <type type="string">@DIFFICULTY</type>
-          <text type="formattedtext"><p>@DESCRIPTION_NOTES @DESCRIPTION_MODIFIER_NOTES_PAREN</p><p>Page Ref: @REF</p></text>
-       </id-@ID>@SPELLS_LOOP_END
+		  <time type="string">{{.TimeToCast}}</time>
+		  <type type="string">{.Difficulty}</type>
+		<text type="formattedtext"><p>{{.ModifierNotes}} {{.Notes}}</p><p>Page Ref: {{.PageRef}}</p></text>
+		</id-{{.Id}}>{{end}}
       </spelllist>
 
       @ONLY_CATEGORIES_POWER
