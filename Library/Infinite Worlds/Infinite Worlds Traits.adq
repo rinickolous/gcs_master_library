@@ -1,0 +1,75 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "tNJ-jpRVhYXYGBFNq",
+			"name": "Code of Honor (Cabalistic)",
+			"reference": "IW179",
+			"reference_highlight": "Cabalistic Code of Honor",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"base_points": -5,
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "tLiV82ab9y-FY5b4q",
+			"name": "Code of Honor (Centrum)",
+			"reference": "IW179",
+			"reference_highlight": "Centrum Code of Honor",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"base_points": -5,
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "tNqv4A2YxHHjZ7NpG",
+			"name": "Code of Honor (Swagman's)",
+			"reference": "IW179",
+			"reference_highlight": "Swagman's Code of Honor",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"base_points": -5,
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "tzdfU6tw7vU3KdQpw",
+			"name": "Code of Honor (SS)",
+			"reference": "IW179",
+			"reference_highlight": "SS Code of Honor",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"base_points": -10,
+			"calc": {
+				"points": -10
+			}
+		},
+		{
+			"id": "tbWpsEEoww7qvt6Je",
+			"name": "Code of Honor (Infinity Patrol)",
+			"reference": "IW179",
+			"reference_highlight": "Infinity Patrol Code of Honor",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"base_points": -5,
+			"calc": {
+				"points": -5
+			}
+		}
+	]
+}

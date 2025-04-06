@@ -12,7 +12,12 @@
 					"name": "Attributes",
 					"children": [
 						{
-							"id": "t8dlTFO3nVAMPQdHZ",
+							"id": "tDjPJOAiFFeTxXwol",
+							"source": {
+								"library": "rinickolous/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tqha9GlDBU9P-Wg-6"
+							},
 							"name": "Increased Strength",
 							"reference": "B14",
 							"tags": [
@@ -22,14 +27,14 @@
 							],
 							"modifiers": [
 								{
-									"id": "mOd05YcD6PookdcSt",
+									"id": "m40GLID94OydgNrKR",
 									"name": "No Fine Manipulators",
 									"reference": "B15",
 									"cost": -40,
 									"disabled": true
 								},
 								{
-									"id": "mMusifYlFbOeF0ESP",
+									"id": "mY9sXyNN_47yeTbhm",
 									"name": "Size",
 									"reference": "B15",
 									"cost": -10,
@@ -37,7 +42,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mAcN1qHnIiUdWwipZ",
+									"id": "m6fFKlPzPcV1jSAVw",
 									"name": "Super-Effort",
 									"reference": "SU24",
 									"cost": 300,
@@ -60,7 +65,12 @@
 							}
 						},
 						{
-							"id": "trLlid5i7RaNRoupv",
+							"id": "tsIWSbd36LBxrSlwL",
+							"source": {
+								"library": "rinickolous/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tGWOSEE6SmBHACE6Y"
+							},
 							"name": "Increased Dexterity",
 							"reference": "B15",
 							"tags": [
@@ -70,7 +80,7 @@
 							],
 							"modifiers": [
 								{
-									"id": "mHH46iD0tLsxANxd0",
+									"id": "mVHS1ldOrRAdOPl6R",
 									"name": "No Fine Manipulators",
 									"cost": -40,
 									"disabled": true
@@ -92,7 +102,12 @@
 							}
 						},
 						{
-							"id": "t7-NWcrQfrREmXEGZ",
+							"id": "td1avUwcMaf4ZeRsW",
+							"source": {
+								"library": "rinickolous/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "t1w1RFcFceKR2T9_e"
+							},
 							"name": "Increased Intelligence",
 							"reference": "B15",
 							"tags": [
@@ -116,7 +131,12 @@
 							}
 						},
 						{
-							"id": "tef_YvZiDmms3d2v9",
+							"id": "tILTqO9Kg6_wOjHZ0",
+							"source": {
+								"library": "rinickolous/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tVt3SvdGWNchJ8z4o"
+							},
 							"name": "Increased Health",
 							"reference": "B14",
 							"tags": [
@@ -149,7 +169,12 @@
 					"name": "Secondary Characteristics",
 					"children": [
 						{
-							"id": "to4XK4qTMfsJEdFOW",
+							"id": "tKIayZcLgSKM_AHCD",
+							"source": {
+								"library": "rinickolous/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tERWfEKV80M6toQn3"
+							},
 							"name": "Increased Will",
 							"reference": "B16",
 							"tags": [
@@ -173,7 +198,12 @@
 							}
 						},
 						{
-							"id": "tsAo2BwTTsz8a4hbo",
+							"id": "t3v_rV4rQB0WjZVAS",
+							"source": {
+								"library": "rinickolous/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tsIfS0jZqdshsDFOM"
+							},
 							"name": "Extra Fatigue Points",
 							"reference": "B16",
 							"tags": [
@@ -197,7 +227,12 @@
 							}
 						},
 						{
-							"id": "t7ACOgZd1GBOwro3N",
+							"id": "teZTfyH9aY-bqDWAA",
+							"source": {
+								"library": "rinickolous/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tWF1J_Z0Ziz-qJ6pn"
+							},
 							"name": "Increased Basic Speed",
 							"reference": "B17",
 							"tags": [
@@ -230,10 +265,15 @@
 					"name": "Advantages",
 					"children": [
 						{
-							"id": "t80LKFWhKobMNO9_x",
+							"id": "t3lkeJhOzTvsn70us",
+							"source": {
+								"library": "rinickolous/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tGjjVtxav9KsrG7Wx"
+							},
 							"name": "Combat Reflexes",
 							"reference": "B43",
-							"notes": "Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)",
+							"notes": "Never freeze",
 							"tags": [
 								"Advantage",
 								"Mental"
@@ -282,6 +322,16 @@
 									"type": "attribute_bonus",
 									"attribute": "fright_check",
 									"amount": 2
+								},
+								{
+									"type": "conditional_modifier",
+									"situation": "on all IQ rolls to wake up or to recover from surprise or mental stun",
+									"amount": 6
+								},
+								{
+									"type": "conditional_modifier",
+									"situation": "to initiative rolls for your side (+2 if you are the leader)",
+									"amount": 1
 								}
 							],
 							"calc": {
@@ -289,21 +339,38 @@
 							}
 						},
 						{
-							"id": "tMp9xnN28pfV2XZeW",
+							"id": "tWLMtVk4t5udRoq5k",
+							"source": {
+								"library": "rinickolous/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "toTe273Ky82B6YdW5"
+							},
 							"name": "Fit",
 							"reference": "B55",
-							"notes": "+1 to all HT rolls to stay conscious, avoid death, resist disease, resist poison; recover FP at twice the normal rate (but not FP spent for spells or psi powers)",
+							"notes": "Recover FP at twice the normal rate (but not FP spent for spells or psi powers)",
 							"tags": [
 								"Advantage",
 								"Physical"
 							],
 							"base_points": 5,
+							"features": [
+								{
+									"type": "conditional_modifier",
+									"situation": "to all HT rolls to stay conscious, avoid death, resist disease, or resist poison",
+									"amount": 1
+								}
+							],
 							"calc": {
 								"points": 5
 							}
 						},
 						{
-							"id": "tjkXPoZ1saPTorL_y",
+							"id": "tGIHysLajiFNi66wy",
+							"source": {
+								"library": "rinickolous/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tqseLS-LNinGOwJ2z"
+							},
 							"name": "Language Talent",
 							"reference": "B65",
 							"tags": [
@@ -316,53 +383,49 @@
 							}
 						},
 						{
-							"id": "tEHVO2Z9JhzHXK6lP",
+							"id": "tc5syEhAKvjpiOCqD",
+							"source": {
+								"library": "rinickolous/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "t4McL1AEbuPtYbiha"
+							},
 							"name": "Legal Enforcement Powers",
 							"reference": "B65",
+							"notes": "@Description@",
 							"tags": [
 								"Advantage",
 								"Social"
 							],
-							"modifiers": [
-								{
-									"id": "mpX-TRZ9AvnRwGktH",
-									"name": "@Local cop@",
-									"reference": "B65",
-									"cost": 5,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "mp9T6lRbpqSQoUCdf",
-									"name": "@KGB@",
-									"reference": "B65",
-									"cost": 15,
-									"cost_type": "points",
-									"disabled": true
-								},
-								{
-									"id": "mQYVC5e_uljBa3VeG",
-									"name": "Intervention Service",
-									"reference": "B65",
-									"cost": 10,
-									"cost_type": "points"
-								}
-							],
+							"replacements": {
+								"Description": "Intervention Service"
+							},
+							"points_per_level": 5,
+							"can_level": true,
+							"levels": 1,
 							"calc": {
-								"points": 10
+								"points": 5,
+								"resolved_notes": "Intervention Service"
 							}
 						},
 						{
-							"id": "tivgja_yWeEgA2Qkq",
-							"name": "Patrol Rank",
+							"id": "tYBJAzT3pHgV13Y1O",
+							"source": {
+								"library": "rinickolous/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tmp8yecgaZq9TOk59"
+							},
+							"name": "@Type@ Rank",
 							"reference": "B29",
 							"tags": [
 								"Advantage",
-								"Physical"
+								"Social"
 							],
+							"replacements": {
+								"Type": "Patrol"
+							},
 							"modifiers": [
 								{
-									"id": "mn86Pfqm20j1gWfVN",
+									"id": "mZcvQNbkChumlkO5P",
 									"name": "Replaces Status",
 									"reference": "B29",
 									"cost": 5,
@@ -371,7 +434,7 @@
 									"disabled": true
 								},
 								{
-									"id": "msqjJ1yE-usJG0Hcq",
+									"id": "mdl-wYX4BZvQv-5D-",
 									"name": "Courtesy",
 									"reference": "B29",
 									"cost": -4,
@@ -391,9 +454,21 @@
 							"id": "TAeE0JmFqDG1tUhaF",
 							"name": "Languages",
 							"notes": "One must be English",
+							"template_picker": {
+								"type": "count",
+								"qualifier": {
+									"compare": "is",
+									"qualifier": 3
+								}
+							},
 							"children": [
 								{
-									"id": "tFB8RG6eVK_6I9EpA",
+									"id": "tKtaHVbrHHZo9-PV9",
+									"source": {
+										"library": "rinickolous/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tqOS0Bmbg9MLory05"
+									},
 									"name": "Language: @Language@",
 									"reference": "B24",
 									"notes": "With Language Talent",
@@ -418,14 +493,14 @@
 									},
 									"modifiers": [
 										{
-											"id": "mHv9iWo97DvtcZ6uP",
+											"id": "mlWY3LMD5U8WViHu4",
 											"name": "Native",
 											"reference": "B23",
 											"cost": -4,
 											"cost_type": "points"
 										},
 										{
-											"id": "mImV-mXw_vkDKyVAS",
+											"id": "mq4xuoUbcrBmVTwso",
 											"name": "Spoken",
 											"reference": "B24",
 											"notes": "Accented",
@@ -434,7 +509,7 @@
 											"disabled": true
 										},
 										{
-											"id": "mXgDTjv9UxcyjqGn2",
+											"id": "mmgl1GSP5BtUc1TMC",
 											"name": "Spoken",
 											"reference": "B24",
 											"notes": "Native",
@@ -442,7 +517,7 @@
 											"cost_type": "points"
 										},
 										{
-											"id": "mGScof_egkMxJljel",
+											"id": "mavfjL2gO77-bNeE6",
 											"name": "Written",
 											"reference": "B24",
 											"notes": "Accented",
@@ -451,7 +526,7 @@
 											"disabled": true
 										},
 										{
-											"id": "mWrvoy30fJ6hkGpaB",
+											"id": "mvQFe7MhUd33s9kNb",
 											"name": "Written",
 											"reference": "B24",
 											"notes": "Native",
@@ -464,7 +539,12 @@
 									}
 								},
 								{
-									"id": "tnGz7KW8UFBLRrXRH",
+									"id": "tyn-ipOOyxz0s6ITx",
+									"source": {
+										"library": "rinickolous/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tqOS0Bmbg9MLory05"
+									},
 									"name": "Language: @Language@",
 									"reference": "B24",
 									"notes": "With Language Talent",
@@ -489,7 +569,7 @@
 									},
 									"modifiers": [
 										{
-											"id": "mb7qRVsi-ig11NVER",
+											"id": "mQhJ2pHTd9Vx0SlCy",
 											"name": "Native",
 											"reference": "B23",
 											"cost": -4,
@@ -497,7 +577,7 @@
 											"disabled": true
 										},
 										{
-											"id": "mpweBDYpNEYjCBxEe",
+											"id": "mgVoK9CACAx_0-7ZV",
 											"name": "Spoken",
 											"reference": "B24",
 											"notes": "Accented",
@@ -506,7 +586,7 @@
 											"disabled": true
 										},
 										{
-											"id": "mKdWsflA77Ee1aYgF",
+											"id": "meB3rhLi6CKDHq7d8",
 											"name": "Spoken",
 											"reference": "B24",
 											"notes": "Native",
@@ -514,7 +594,7 @@
 											"cost_type": "points"
 										},
 										{
-											"id": "mauJ8MKdeP_NzSIJg",
+											"id": "mN5LwTWVyaicemRE-",
 											"name": "Written",
 											"reference": "B24",
 											"notes": "Accented",
@@ -523,7 +603,7 @@
 											"disabled": true
 										},
 										{
-											"id": "mtaNNtbZ9bS2GqxUd",
+											"id": "m272WfD4IxqD0qj8v",
 											"name": "Written",
 											"reference": "B24",
 											"notes": "Native",
@@ -536,7 +616,12 @@
 									}
 								},
 								{
-									"id": "ti4Q-aCc7UTWZOlNI",
+									"id": "ti-V6oHs_ni2EbpVM",
+									"source": {
+										"library": "rinickolous/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tqOS0Bmbg9MLory05"
+									},
 									"name": "Language: @Language@",
 									"reference": "B24",
 									"notes": "With Language Talent",
@@ -561,7 +646,7 @@
 									},
 									"modifiers": [
 										{
-											"id": "msr46DCuzjV9CAmhT",
+											"id": "moqSrjMWyNtjYSdBM",
 											"name": "Native",
 											"reference": "B23",
 											"cost": -4,
@@ -569,7 +654,7 @@
 											"disabled": true
 										},
 										{
-											"id": "mIJpNdysedR4UAfuM",
+											"id": "ml4Qm6QxsVVqb3NX9",
 											"name": "Spoken",
 											"reference": "B24",
 											"notes": "Accented",
@@ -578,7 +663,7 @@
 											"disabled": true
 										},
 										{
-											"id": "mZHuVl0_BDQJgSAF2",
+											"id": "mn0_4JvmdTdxNq7ON",
 											"name": "Spoken",
 											"reference": "B24",
 											"notes": "Native",
@@ -586,7 +671,7 @@
 											"cost_type": "points"
 										},
 										{
-											"id": "m7Bi2aVxeIJ0j7I2w",
+											"id": "mGP7Me1g03hQ5HUQg",
 											"name": "Written",
 											"reference": "B24",
 											"notes": "Accented",
@@ -595,7 +680,7 @@
 											"disabled": true
 										},
 										{
-											"id": "mcOasgZoSmgbb-lXd",
+											"id": "mV4kwgXgl8ClHqLjm",
 											"name": "Written",
 											"reference": "B24",
 											"notes": "Native",
@@ -614,7 +699,7 @@
 						}
 					],
 					"calc": {
-						"points": 53
+						"points": 48
 					}
 				},
 				{
@@ -622,9 +707,15 @@
 					"name": "Disadvantages",
 					"children": [
 						{
-							"id": "tsGIW4UZyiGLwAqRl",
-							"name": "Code of Honor (Patrol)",
+							"id": "t538SV6FwiaWakwuI",
+							"source": {
+								"library": "rinickolous/gcs_master_library",
+								"path": "Infinite Worlds/Infinite Worlds Traits.adq",
+								"id": "tbWpsEEoww7qvt6Je"
+							},
+							"name": "Code of Honor (Infinity Patrol)",
 							"reference": "IW179",
+							"reference_highlight": "Infinity Patrol Code of Honor",
 							"tags": [
 								"Disadvantage",
 								"Mental"
@@ -759,6 +850,13 @@
 						{
 							"id": "Tgdv4D8yLBIlqlzGa",
 							"name": "-30 Points From the following",
+							"template_picker": {
+								"type": "points",
+								"qualifier": {
+									"compare": "is",
+									"qualifier": -30
+								}
+							},
 							"children": [
 								{
 									"id": "tfbmqvVdZ5jvZkuMu",
@@ -1069,7 +1167,7 @@
 				}
 			],
 			"calc": {
-				"points": 7
+				"points": 2
 			}
 		}
 	],
@@ -1488,6 +1586,13 @@
 					"id": "SG5LH4aevNDTIahJi",
 					"name": "Choose 1 Division Skill Package",
 					"notes": "Packages denoted with † change duty to hazardous and require -5 more points in disadvantages.",
+					"template_picker": {
+						"type": "count",
+						"qualifier": {
+							"compare": "is",
+							"qualifier": 1
+						}
+					},
 					"children": [
 						{
 							"id": "S-7NgHdybyLk33eD3",
@@ -2022,6 +2127,13 @@
 								{
 									"id": "S0uXnEDvlDJpOulGB",
 									"name": "Choose 1",
+									"template_picker": {
+										"type": "count",
+										"qualifier": {
+											"compare": "is",
+											"qualifier": 1
+										}
+									},
 									"children": [
 										{
 											"id": "sZyGBRd83Ko1omLcO",
